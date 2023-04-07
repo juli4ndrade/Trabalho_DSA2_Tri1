@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="verificar.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+    <nav> 
+        <ul class="menu">
+            <li><a href="agendaOnu.html" class="menu-link">Agenda 2023 </a></li>
+            <li><a href="sustentabilidade.html"  class="menu-link">O que é sustentabilidade? </a></li>
+            <li><a href="objetivos.html"  class="menu-link">Os 17 objetivos</a></li>
+        </ul>
+    </nav>
+</div>
+    <main class="main">
+    <form method="post" action="mailto:mmarquesraioane586@gmail.com" enctype="text/plain" onSubmit="return verificar()">
+        <div class="cont">
+        <h1>Formulário de Contato</h1>
+        <div class="input-group">
+            <div class="input-box">
+                <label for="usuario">Nome: </label>
+                <input id="nome" type="text" name="nome" placeholder="Nome">
+            </div>
+        <div class="input-box">
+            <label for="email">E-mail: </label>
+            <input id="email" type="text" name="email" placeholder="E-mail" required>
+        </div>
+        <div class="input-box">
+            <label for="password">Senha: </label>
+            <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+        </div>
+        </div>
+    <div>
+    <label for="satisfação">Satisfação:</label>
+    <input type="range" name="satisfacao" min="0" max="10">
+    </div>
+    <div>
+        <label for="comen">Deixe seu comentário</label>
+        <textarea name="comentario" rows="4" cols="20">comentários, críticas e elogios aqui...</textarea>
+    </div>
+    <div>
+        <label for="avaliação">Sua experiência foi:</label>
+        <input type="radio" name="flexRadioDisabled" id="flexRadio">
+          Positiva
+        </label>
+        <input type="radio" name="flexRadioDisabled" id="flexRadioChecked" checked>
+          Negativa
+        </label>
+      </div>
+      <div class="buttons">
+      <input type="submit" value="finalizar" class="contButton"> 
+      <input type="reset" value="limpar" class="formButton"> 
+    </div>
+     <a href="mailto:email@provedor.com.br?subject=Assunto do email&cc=copia@provedor.com.br&bcc=copiaoculta@provedor.com.br&body=Conteúdo do email que será preenchido automaticamente"
+      class="forEmail">Enviar email</a>
+    </div>
+    </form>
+</main>
+<div class="contato">
+    <nav>
+        <ul>
+            <li><a href="formCont.html">Fale Conosco</a></li>
+            <li><a href="#">Termos de Uso e Política de Privacidade</a></li>
+        </ul>
+    </nav>
+</div>
+<footer>
+   <h2 id="grpnomes"> Integrantes | Grupo 02 </h2>
+   <div class="subfooter">
+    <div class="nomes" id="n1">
+   <p> Carlos Henrique da Silva Ferres</p>
+   <p> Nº 03 - RM 87042</p>
+</div>
+<div class="nomes" id="n2">
+   <p> Geremias Macedo Couto do Rego</p>
+   <p> Nº 12 - RM 87509</p>
+</div>
+<div class="nomes" id="n3 ">
+   <p> Julia Andrade Silva</p>
+   <p> Nº 17 - RM 87122</p>
+</div>
+<div class="nomes" id="n4">
+    <p> Nicolly Carvalho Assis</p>
+    <p> Nº 25 - RM 87068</p>
+</div>
+<div class="nomes" id="n5">
+   <p> Rayane Marques</p>
+   <p> Nº 29 - RM 87036</p>
+</div>
+<div class="nomes" id="n6">
+   <p> Vitor Barbosa</p>
+   <p> Nº 35 - RM 87085</p>
+</div>
+<div class="nomes" id="n7">
+   <P> Ygor Barboza</P>
+   <p> Nº 36 - RM 86953</p>
+   </div>
+</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow-x: hidden;
+    font-family: Poppins;
+}
+.container{
+    width: 100%;
+    border-bottom:3px solid #7a9f79 ;
+}
+
+.menu{
+   display: flex;
+   justify-content: space-around;
+   margin: 2% 0 2% 50%;
+   padding: 0 7% 0 7%;
+}
+.menu-link{
+   color: #315a39;
+   font-weight: 500;
+}
+
+
+main{
+    margin: 2% 3% 0 3%;
+}
+.card1{
+    padding: 20px;
+    border: solid 1px black;
+    border-radius: 15px;
+}
+.card2{
+    padding: 20px;
+}
+footer{
+   padding: 2%;
+   background-color: #315a39;
+}
+.subfooter{
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
+    font-size: smaller;
+}
+.nomes{
+    margin: 0 0 0 2%;
+}
+#grpnomes{
+    font-weight: 600;
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+.contato{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 15px 0 15px 10px;
+    background-color: #7a9f79;
+}
+.triocards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 70vh;
+    margin: 30px 0 30px 0 ;
+}
+.card{
+    background-color: white;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    margin: 0 0 0 30px;
+    width: 360px;
+    height: 60vh;
+    transition: .3s;
+}
+.card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+.topcard{
+    padding: 10px;
+}
+.maincard1{
+    background: url("https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/04/05/1858762422-i719074.jpeg") center/cover;
+    height: 35vh;
+    width: 100%;
+}
+.maincard2{
+    background: url("https://cdn.jornaldebrasilia.com.br/wp-content/uploads/2023/02/09104923/WhatsApp-Image-2023-02-09-at-10.47.40.jpeg") center/cover;
+    height: 35vh;
+    width: 100%;
+}
+.maincard3{
+    background: url("https://www.pensamentoverde.com.br/wp-content/uploads/2023/03/sustentabilidade-ganha-mais-espaco-nas-instituicoes-de-ensino-2.jpg") center/cover;
+    height: 35vh;
+    width: 100%;
+}
+
+.bottomcard{
+    padding: 10px;
+    padding-bottom: 15px;
+    background: none;
+    border: none;
+}
+
+.main{
+    width: 80%;
+    margin: 10%;
+    margin-top: 3%!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.cont{
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+  .input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    width: 55vh;
+}
+
+  .input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10%;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+}
+
+  .input-box input:hover {
+    background-color: #eeeeee75;
+}
+
+  .input-box input:focus-visible {
+    outline: 1px solid #5c93aa;
+}
+
+  .input-box input::placeholder {
+    color: #000000be;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contButton {
+    border: none;
+    background-color: #5c93aa;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2%;
+}
+
+.formButton {
+    border: none;
+    background-color: #5c93aa;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2%;
+}
+
+.formEmail{
+}
